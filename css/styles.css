@@ -3,63 +3,91 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    color: white;
+    font-family: sans-serif;
 }
-a:visited {
-    /*color: white;*/
-}
-
-.head {
+/* HEAD */
+header {
     max-width: 1600px;
     margin: auto;
     background: url("../img/Layer 96.png") no-repeat;
     background-size: cover;
-    height: 880px;
 }
-.head .head-header {
+header .head-header {
     padding: 30px 0 18px 227px;
     border-bottom: 1px solid #767676;
     display: flex;
 }
-.head .head-header .blank {
+header .head-header .blank {
     width: 67px;
     height: 67px;
     background: white;
     position: absolute;
 }
-.head .head-header img {
+header .head-header img {
     width: auto;
-    background-color: white;
     transform: translate(-12px, -8px);
     margin-right: 226px;
     height: 67px;
 }
-.head .head-header nav .navbar {
+header .head-header nav .navbar {
     list-style: none;
     display: flex;
 
 }
-.head .head-header nav .navbar .nav-item {
+header .head-header nav .navbar .nav-item {
     margin-top: 16px;
 }
-.head .head-header nav .navbar .nav-item a,
-.head .head-header nav .navbar .nav-item span {
+header .head-header nav .navbar .nav-item a,
+header .head-header nav .navbar .nav-item span {
     font-size: 20px;
     padding: 0 11px 40px 16px;
     margin-right: 22px;
     color: white;
 }
-.head .head-header nav .navbar .nav-item a:hover {
+header .head-header nav .navbar .nav-item a:hover {
     border-bottom: 6px solid #11749e;
 }
-.head .head-header .contacts {
+header .head-header .contacts {
     display: flex;
     margin: 15px 0 0 54px;
 }
-.head .head-header .contacts a {
+header .head-header .contacts a {
     color: white;
     font-size: 20px;
     margin-right: 22px;
 }
-.head .head-header .contacts .fa:last-child {
+header .head-header .contacts .fa:last-child {
     margin-right: 0;
 }
+
+header .head-content {
+    padding-top: 275px;
+}
+
+header .head-content * {
+    text-align: center;
+}
+header .head-content .main-header {
+    font-size: 150px;
+}
+header .head-content .main-subheader {
+    color: #11749e;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 19px;
+    margin-bottom: 118px;
+}
+header .head-content .scroll-down-text {
+    font-size: 13px;
+    margin-bottom: 22px;
+    font-family: "Open Sans", sans-serif;
+}
+header .head-content .scroll-down-button a {
+    padding: 20px 24px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-bottom: 70px;
+}
+/* HEAD ENDS */
+
