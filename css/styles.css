@@ -6,6 +6,9 @@
     color: white;
     font-family: sans-serif;
 }
+p {
+    line-height: 24px;
+}
 body {
     max-width: 1600px;
     margin: auto;
@@ -20,7 +23,7 @@ body {
 }
 .logo {
     position: relative;
-    padding-top: 345px;
+    padding-top: 315px;
 }
 .logo .logo-letter{
     color: #3c8daf;
@@ -34,6 +37,13 @@ body {
     text-transform: uppercase;
     top: 150px;
     margin-left: -288px;
+}
+.tagline {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.article-header {
+    font-size: 25px;
 }
 
 /* HEAD */
@@ -171,7 +181,6 @@ main .blue-zone .articles .article label {
     font-size: 13px;
 }
 main .blue-zone .articles .article h3 {
-    font-size: 25px;
     margin-top: 10px;
 }
 main .blue-zone .articles .article p {
@@ -209,10 +218,6 @@ main .blue-zone .blog .logo .through {
     letter-spacing: 5px;
     top: 146px;
 }
-main .blue-zone .blog .tagline {
-    font-size: 30px;
-    letter-spacing: 2px;
-}
 main .blue-zone .blog .blog-cards {
     margin-top: 72px;
     padding: 0 215px 105px;
@@ -244,6 +249,88 @@ main .blue-zone .optional-entries .optional-entry:first-child {
     margin-right: 60px;
 }
 /* BLUE-ZONE ENDS */
-
-
-
+/* PHONE */
+main .phone {
+    background: url("../img/phone-bg.png") no-repeat;
+    background-size: cover;
+    padding: 100px 0 100px 225px;
+}
+main .phone .phone-content {
+    justify-content: left;
+}
+main .phone .phone-content .description {
+    text-align: left;
+    max-width: 480px;
+    padding-top: 125px;
+}
+main .phone .phone-content .description h3 {
+    margin-bottom: 38px;
+}
+main .phone .phone-content .description p {
+    margin-bottom: 66px;
+}
+main .phone .phone-content .description .advances-container {
+    flex-direction: column;
+}
+main .phone .phone-content .description .advances-container .advance {
+    margin-top: 24px;
+    background-color: #11749e;
+    padding: 12px 0 12px 18px;
+    text-transform: uppercase;
+}
+main .phone .phone-content .description .advances-container .advance:first-child {
+    width: 370px;
+}
+main .phone .phone-content .description .advances-container .advance:nth-child(2) {
+    width: 400px;
+}
+main .phone .phone-content .description .advances-container .advance:nth-child(3) {
+    width: 430px;
+}
+main .phone .phone-content .picture img {
+    margin-left: 240px;
+}
+/* PHONE ENDS */
+/* TEAM */
+main .team {
+    background-color: white;
+    padding: 0 215px 100px;
+}
+main .team * {
+    color: #222222;
+}
+main .team .logo .logo-letter {
+    color: #d7d7d7;
+}
+main .team .logo .through {
+    margin-left: -146px;
+}
+main .team .tagline {
+    margin: 0 0 0 -100px;
+}
+main .team .portraits {
+    margin-top: 66px;
+}
+main .team .portraits .portrait {
+    margin-right: 30px;
+}
+main .team .portraits .portrait:last-child {
+    margin-right: 0;
+}
+main .team .portraits .portrait .image {
+    position: relative;
+}
+main .team .portraits .portrait .image .employee-name {
+    background-color: white;
+    padding: 22px 38px 7px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 220px;
+    color: #11749e;
+    font-weight: bold;
+}
+main .team .portraits .portrait .seat {
+    font-size: 15px;
+}
