@@ -213,9 +213,37 @@ main .blue-zone .blog .tagline {
     font-size: 30px;
     letter-spacing: 2px;
 }
-
-
-
+main .blue-zone .blog .blog-cards {
+    margin-top: 72px;
+    padding: 0 215px 105px;
+}
+main .blue-zone .blog .blog-cards .blog-card {
+    max-width: 270px;
+    margin-right: 29px;
+}
+main .blue-zone .blog .blog-cards .blog-card:last-child {
+    margin-right: 0;
+}
+main .blue-zone .blog .blog-cards .blog-card img {
+    margin-bottom: 40px;
+}
+main .blue-zone .blog .blog-cards .blog-card h5 {
+    text-transform: uppercase;
+    color: #3187ab;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+main .blue-zone .blog .blog-cards .blog-card p {
+    font-size: 15px;
+}
+/* BLOG ENDS */
+main .blue-zone .optional-entries {
+    padding: 110px 210px 140px;
+}
+main .blue-zone .optional-entries .optional-entry:first-child {
+    margin-right: 60px;
+}
+/* BLUE-ZONE ENDS */
 
 
 
