@@ -18,7 +18,23 @@ body {
 .poz-absolute {
     position: absolute;
 }
-
+.logo {
+    position: relative;
+    padding-top: 345px;
+}
+.logo .logo-letter{
+    color: #3c8daf;
+    font-size: 247px;
+    font-weight: bold;
+    top: 30px;
+    margin-left: -123px;
+}
+.logo .through {
+    font-size: 37px;
+    text-transform: uppercase;
+    top: 150px;
+    margin-left: -288px;
+}
 
 /* HEAD */
 header {
@@ -100,6 +116,7 @@ header .head-content .scroll-down-button a {
     margin-bottom: 70px;
 }
 /* HEAD ENDS */
+
 /* MAIN SECTION*/
 /* FEATURES */
 main {
@@ -109,22 +126,8 @@ main {
 main .blue-zone #awesome {
     padding: 0 150px;
 }
-main .blue-zone .logo {
-    position: relative;
-    padding-top: 345px;
-}
-main .blue-zone .logo .w{
+main .blue-zone .logo .logo-letter{
     color: #3c8daf;
-    font-size: 247px;
-    font-weight: bold;
-    top: 30px;
-    margin-left: -123px;
-}
-main .blue-zone .logo .through {
-    font-size: 37px;
-    text-transform: uppercase;
-    top: 150px;
-    margin-left: -288px;
 }
 main .blue-zone .features .feature-item {
     flex-direction: column;
@@ -185,11 +188,31 @@ main .blue-zone .articles .article-even {
 main .blue-zone .articles .article-even * {
     color: #222222;
 }
-
-
-
-
-
+/* ARTICLES ENDS */
+/* BLOG */
+main .blue-zone .blog {
+    background-color: white;
+}
+main .blue-zone .blog * {
+    color: black;
+}
+main .blue-zone .blog .logo {
+    padding-top: 300px;
+}
+main .blue-zone .blog .logo .logo-letter {
+    color: #d7d7d7;
+    margin-left: -80px;
+}
+main .blue-zone .blog .logo .through {
+    font-weight: bold;
+    margin-left: -134px;
+    letter-spacing: 5px;
+    top: 146px;
+}
+main .blue-zone .blog .tagline {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
 
 
 
