@@ -334,3 +334,66 @@ main .team .portraits .portrait .image .employee-name {
 main .team .portraits .portrait .seat {
     font-size: 15px;
 }
+/* TEAM ENDS */
+/* CALLBACK */
+main .callback {
+    background: url("../img/form-bg.png") no-repeat;
+    position: relative;
+    padding:  0 220px 100px;
+}
+main .callback .logo {
+    top: 50px;
+    margin-bottom: 55px;
+}
+
+main .callback .logo .logo-letter {
+    color: #d7d7d730;
+}
+main .callback .logo .through {
+    margin-left: -450px;
+}
+main .callback form {
+
+}
+main .callback form * {
+    background: none;
+}
+main .callback form .inputs {
+    justify-content: space-between;
+}
+main .callback form .input {
+    border: 1px solid white;
+    padding: 16px;
+}
+main .callback form input {
+    width: 32%;
+    margin-bottom: 40px;
+}
+main .callback form textarea {
+    width: 100%;
+    resize: none;
+    margin-bottom: 45px;
+}
+main .callback form button {
+    padding: 18px 70px;
+    background: #11749e;
+    border: 0;
+    font-size: 24px;
+}
+/* CALLBACK ENDS */
+/* MAP & FOOTER */
+.map-image {
+    margin-bottom: -4px;
+}
+footer {
+    background: #222222;
+    padding: 50px 220px;
+    justify-content: space-between;
+    vertical-align: bottom;
+}
+footer .timestamp {
+    font-size: 13px;
+    vertical-align: bottom;
+    padding-top: 10px;
+}
+/* FOOTER ENDS */
