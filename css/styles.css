@@ -50,6 +50,7 @@ body {
 header {
     background: url("../img/Layer96.png") no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 header .head-container {
     border-bottom: 1px solid #767676;
